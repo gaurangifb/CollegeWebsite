@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../navbar/images/bg1.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav {
+    background: rgb(255, 255, 255);
+    height: 90px;
+    width: 100%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#logo{
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+}
+
+a.active, a:hover {
+    transition: .5s;
+}
+
+
+table, th, td  {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#heading {
+    margin-top: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.para1, .para2, .para3, .para4, .para5{
+    margin: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.listT{
+    font-size: 19px;
+    list-style: decimal;
+    margin-left: 40px;
+}
+
+table{
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+footer {
+    height: 140px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer>p:nth-child(1){
+    padding-top: 40px;
+}
+
+
+

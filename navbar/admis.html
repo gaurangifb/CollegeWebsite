@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admis.css">
+    <title>Admission Page</title>
+</head>
+<body>
+
+    <nav>
+        <img id=logo src="images/logo.png">
+
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="acad.html">Academics</a></li>
+            <li><a href="admis.html">Admission</a></li>
+            <li><a href="gall.html">Gallery</a></li>
+        </ul>
+        
+    </nav>
+
+    <h1 id="ad">ADMISSION FORM</h1>
+
+    <div text-align="left" class="regis">
+        <form>
+
+            <table>
+
+                <tr><td><h2>PERSONAL DETAILS</h2></td></tr>
+
+                <tr>
+                    <td><label for="fName">First Name: </label>   <!--for and input id should be same--></td>
+                    <td><input type="text" name="fName" id="fName"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lName">Last Name: </label></td>
+                    <td><input type="text" name="lName" id="lName"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="faName">Father's Name: </label></td>
+                    <td><input type="text" name="faName" id="faName"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="maName">Mother's Name: </label></td>
+                    <td><input type="text" name="maName" id="maName"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cat">Category: </label> </td>
+                    <td><select name="cat" id="cat">
+                            <option value="gen">General</option>
+                            <option value="eng">OBC</option>
+                            <option value="mar">SC</option>
+                            <option value="psyc">ST</option>
+                            <option value="baf">PwD</option>
+                        </select> <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="num">Phone Number: </label></td>
+                    <td><input type="number" name="number" id="num"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="bPlace">Birth Place: </label>   <!--for and input id should be same--></td>
+                    <td><input type="text" name="bPlace" id="bPlace"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" name="email" id="email"> <br/>  <br></td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender: </label></td>
+                    <td><input type="radio" name="gender" id="female" value="Female"> 
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="male" value="Male"> 
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="others" value="Others"> 
+                        <label for="others">Others</label> <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="date">Date of Birth: </label></td>
+                    <td><input type="date" id="date" name="birthDate"><br> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="fOccu">Father's Occupation: </label>   <!--for and input id should be same--></td>
+                    <td><input type="text" name="fOccu" id="fOccu"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="bg">Blood Group: </label></td>
+                    <td>
+                        <select name="bg" id="bg">
+                            <option value="A-positive">A+</option>
+                            <option value="A-negataive">A-</option>
+                            <option value="B-positive">B+</option>
+                            <option value="B-negative">B-</option>
+                            <option value="AB-positive">AB+</option>
+                            <option value="AB-negative">AB-</option>
+                            <option value="O-positive">O+</option>
+                            <option value="O-negative">O-</option>
+                        </select> <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="address">Address: </label></td>
+                    <td><textarea placeholder="Street-House-Road" name="message" rows="3" cols="30"></textarea>
+                        <br> <br></td>
+                </tr>
+
+                <tr><td><h2>EDUCATION DETAILS</h2></td></tr>
+
+                <tr><td><h3>10th Details</h3></td></tr>
+
+                <tr>
+                    <td><label for="nSchool1">Name of School: </label></td>
+                    <td><input type="text" name="nSchool1" id="nSchool1"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="board">Name of Board: </label></td>
+                    <td><input type="text" name="board" id="board"> <br/>  <br/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pYear">Passing Year: </label></td>
+                    <td><input type="number" name="pYear" id="pYear"> <br/>  <br/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="marks">Obtained Marks/Percentage: </label></td>
+                    <td><input type="number" name="pYear" id="pYear"> <br/>  <br/></td>
+                </tr>
+
+                <tr><td><h3>12th Details</h3></td></tr>
+
+                <tr>
+                    <td><label for="nSchool1">Name of School/College: </label></td>
+                    <td><input type="text" name="nSchool1" id="nSchool1"> <br/> <br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="board">Name of Board: </label></td>
+                    <td><input type="text" name="board" id="board"> <br/>  <br/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pYear">Passing Year: </label></td>
+                    <td><input type="number" name="pYear" id="pYear"> <br/>  <br/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="marks">Obtained Marks/Percentage: </label></td>
+                    <td><input type="number" name="pYear" id="pYear"> <br/>  <br/></td>
+                </tr>
+
+                <tr><td><h3>CURRENT COURSE DETAILS</h3></td></tr>
+
+                <tr>
+                    <td><label for="stream">Select Stream: </label></td>
+                    <td>
+                        <select name="stream" id="stream">
+                            <option value="arts">Arts</option>
+                            <option value="comm">Commerce</option>
+                            <option value="sci">Science</option>
+                        </select> <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="dep">Select Course: </label> </td>
+                    <td>
+                        <select name="dep" id="dep">
+                            <option value="eco">Economics</option>
+                            <option value="eng">English</option>
+                            <option value="mar">Marathi</option>
+                            <option value="psyc">Psychology</option>
+                            <option value="baf">BAF</option>
+                            <option value="baf">BBI</option>
+                            <option value="baf">B.Comm</option>
+                            <option value="baf">Biotechnology</option>
+                            <option value="baf">Computer Science</option>
+                            <option value="baf">Information Technology</option>
+                            <option value="baf">Mathematics</option>
+                        </select> <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="radio" name="ds" id="ds" value="ds"> 
+                        <label for="ds">Day Scholar</label>
+                        <input type="radio" name="hos" id="hos" value="hos"> 
+                        <label for="hos">Hosteller</label> <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+
+            </table>
+            
+            <!-----for and input id should be same in order to focus text box on that particular input-->
+            <!---name attribute is for sending the data in url after clicking on submit-->
+           
+        </form>
+    </div>
+
+    <footer>
+        <p>RJ COLLEGE<br></p>
+        <p>Copyright @RJ College</p>
+    </footer>
+
+    
+        
+</body>
+</html>
